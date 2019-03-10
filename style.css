@@ -1,0 +1,67 @@
+* {
+	margin:0;
+	padding:0;
+	
+}
+
+body {
+	font-family:"Open Sans", Helvetica, Arial, sans-serif;
+	font-weight:400;
+	font-size: 14px;
+	line-height:30px;
+	color:red;
+	background:lightblue;
+}
+
+.container {
+	max-width:400px;
+	background-color: #d4e8ef  ;
+	width:100%;
+	margin:0 auto;
+	position:relative;
+}
+
+#form {
+	background:F481E2;
+	padding:25px;
+	margin:50px 0;
+}
+
+fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+	background-color: #dbdee0 ;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+
+#form input[type="text"], 
+#form input[type="email"], 
+#form input[type="tel"] {
+	
+	width:94%;
+	border:none;
+	background:;
+	margin:0 0 5px;
+	padding:10px;
+}
+
+
+
+
+#form button[type="submit"] {
+	cursor:pointer;
+	width:100%;
+	border:none;
+	background:grey;
+	color:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	font-size:15px;
+}
+
+#form button[type="submit"]:hover {
+	background:blue;
+	
+}
